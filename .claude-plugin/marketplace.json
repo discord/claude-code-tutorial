@@ -1,0 +1,14 @@
+{
+  "name": "discord-claude-code-tutorial",
+  "description": "Claude Code Tutorial - Learn Claude Code by doing",
+  "owner": {
+    "name": "discord"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-tutorial",
+      "description": "Interactive tutorial for learning Claude Code - run /tutorial to start",
+      "source": "./plugins/claude-code-tutorial"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/main/.mcp.schema.json",
+  "mcpServers": {
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"],
+      "description": "Up-to-date library docs - prevents hallucinating APIs"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp"],
+      "description": "Browser automation using accessibility trees"
+    }
+  }
+}
